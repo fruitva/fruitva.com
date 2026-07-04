@@ -49,9 +49,15 @@ display:flex;
 justify-content:space-between;
 align-items:center;
 padding:120px 8%;
-background:linear-gradient(135deg,#f6fff2,#ffffff);
-}
 
+background:
+linear-gradient(rgba(255,255,255,.85),rgba(255,255,255,.85)),
+url("assets/hero-bg.jpg");
+
+background-size:cover;
+background-position:center;
+background-repeat:no-repeat;
+}
 .hero-text{
 width:50%;
 }
