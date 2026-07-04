@@ -12,18 +12,18 @@ overflow-x:hidden;
 }
 
 header{
+position:fixed;
+top:0;
+left:0;
+width:100%;
+background:#fff;
 display:flex;
 justify-content:space-between;
 align-items:center;
-padding:20px 8%;
-background:#ffffff;
-position:fixed;
-top:0;
-width:100%;
+padding:18px 8%;
 box-shadow:0 5px 20px rgba(0,0,0,.08);
-z-index:999;
+z-index:1000;
 }
-
 .logo h1{
 color:#2E7D32;
 font-size:34px;
